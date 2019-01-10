@@ -14,10 +14,14 @@ public class MyInfoController {
     private String sex;
 
     @Value("${my.age}")
-    private String age;
+    private int age;
 
+    /**
+     * 直接读取yml配置文件
+     * @return
+     */
     @RequestMapping("/myInfo")
     public String myInfo(){
-        return name + " " + sex + " " + age;
+        return "直接获取配置数据：" + name + " " + sex + " " + age;
     }
 }
