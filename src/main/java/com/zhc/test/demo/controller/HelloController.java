@@ -1,4 +1,4 @@
-package com.zhc.test.demo;
+package com.zhc.test.demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
