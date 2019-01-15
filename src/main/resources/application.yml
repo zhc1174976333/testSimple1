@@ -2,4 +2,12 @@ my:
     name: haicheng.zhang
     sex: male
     age: 29
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.101.41.74:3306/test
+    username: root
+    password: root1234
+
+
 
