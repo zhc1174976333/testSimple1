@@ -47,5 +47,4 @@ public class UserController {
         userService.insertUser(userEntity);
         return Boolean.TRUE;
     }
-
 }
